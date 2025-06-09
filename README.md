@@ -12,6 +12,14 @@ MENTEE adalah aplikasi berbasis Java yang digunakan untuk mengelola data klaseme
 
 ## Struktur Proyek
 
+src/ 
+├── Controller/ # Logika aplikasi dan penghubung antara View dan Model 
+├── DAO/ # Data Access Object untuk operasi database 
+├── DAOIMentee/ # Interface DAO 
+├── Koneksi/ # Koneksi ke database 
+├── Model/ # Representasi data (Tim, Match, dll) 
+└── View/ # Antarmuka pengguna (GUI)
+
 ## Cara Menjalankan
 
 1. **Clone repository ini**
